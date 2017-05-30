@@ -20,7 +20,7 @@ Ces éléments sont reliés entre eux par des bus d’adresse et de données.
 
 ![Architecture d’un système informatique](images/architecture-sys-info.svg "Architecture d’un système informatique"){ width=90% }
 
-Le programme suivant, en langage Arduino, enregistre une valeur en mémoire et la transmet à une LED branchée sur un port de sortie :
+Le programme suivant, en langage Arduino, charge une valeur depuis la mémoire et la transmet à une LED branchée sur un port de sortie :
 
 ~~~~~~~ { .c .numberLines startFrom="1" }
   int variable = 1;
